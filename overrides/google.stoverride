@@ -1,0 +1,19 @@
+# google.stoverride
+# Google 服务分流覆写
+# 使用前确认你的订阅里已有对应策略组，例如：🌐 Google服务、🇨🇳 台湾节点、🇸🇬 狮城节点、🇰🇷 韩国节点、🇺🇲 美国节点等。
+
+name: Google 服务分流
+desc: 将 Google 全家桶相关域名指向指定策略组
+
+rules:
+  - DOMAIN-SUFFIX,google.com,🌐 Google服务
+  - DOMAIN-SUFFIX,googleapis.com,🌐 Google服务
+  - DOMAIN-SUFFIX,gstatic.com,🌐 Google服务
+  - DOMAIN-SUFFIX,googleusercontent.com,🌐 Google服务
+  - DOMAIN-SUFFIX,googlevideo.com,🌐 Google服务
+  - DOMAIN-SUFFIX,youtube.com,🌐 Google服务
+  - DOMAIN-SUFFIX,ytimg.com,🌐 Google服务
+  - DOMAIN-SUFFIX,ggpht.com,🌐 Google服务
+  - DOMAIN-SUFFIX,gvt1.com,🌐 Google服务
+  - DOMAIN-SUFFIX,gvt2.com,🌐 Google服务
+  - DOMAIN-SUFFIX,gvt3.com,🌐 Google服务

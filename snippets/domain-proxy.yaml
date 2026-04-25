@@ -1,0 +1,6 @@
+# 常用代理片段
+rules:
+  - DOMAIN-SUFFIX,google.com,🌐 Google服务
+  - DOMAIN-SUFFIX,youtube.com,🌐 Google服务
+  - DOMAIN-SUFFIX,openai.com,💬 Ai平台
+  - DOMAIN-SUFFIX,chatgpt.com,💬 Ai平台

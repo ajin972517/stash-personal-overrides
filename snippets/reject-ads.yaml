@@ -1,0 +1,7 @@
+# 广告拦截片段
+# 注意：移动端 App 开屏广告经常会更新域名，不建议一次性加太狠。
+rules:
+  - DOMAIN-SUFFIX,adservice.google.com,REJECT
+  - DOMAIN-SUFFIX,doubleclick.net,REJECT
+  - DOMAIN-KEYWORD,adservice,REJECT
+  - DOMAIN-KEYWORD,analytics,REJECT

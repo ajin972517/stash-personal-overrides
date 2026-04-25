@@ -1,0 +1,16 @@
+# tencent-direct.stoverride
+# 腾讯 / QQ / TIM 直连规则
+# 适合国内服务，减少误走代理导致延迟、风控或登录异常。
+
+name: 腾讯服务直连
+desc: Tencent / QQ / TIM 常用域名直连
+
+rules:
+  - DOMAIN-SUFFIX,qq.com,DIRECT
+  - DOMAIN-SUFFIX,tencent.com,DIRECT
+  - DOMAIN-SUFFIX,wechat.com,DIRECT
+  - DOMAIN-SUFFIX,weixin.qq.com,DIRECT
+  - DOMAIN-SUFFIX,qlogo.cn,DIRECT
+  - DOMAIN-SUFFIX,gtimg.cn,DIRECT
+  - DOMAIN-SUFFIX,myqcloud.com,DIRECT
+  - DOMAIN-SUFFIX,tim.qq.com,DIRECT

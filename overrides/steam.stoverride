@@ -1,0 +1,18 @@
+# steam.stoverride
+# Steam 分流覆写
+# 思路：国内 CDN 下载直连，社区、商店、部分外服相关域名走代理。
+
+name: Steam 分流
+desc: Steam 下载直连，社区与商店可按需代理
+
+rules:
+  # Steam 国内下载 / CDN，建议直连
+  - DOMAIN-SUFFIX,steamcontent.com,DIRECT
+  - DOMAIN-SUFFIX,steamserver.net,DIRECT
+  - DOMAIN-SUFFIX,steamstatic.com,DIRECT
+
+  # Steam 社区 / 商店，按你的策略组名称调整
+  - DOMAIN-SUFFIX,steampowered.com,🎮 游戏平台
+  - DOMAIN-SUFFIX,steamcommunity.com,🎮 游戏平台
+  - DOMAIN-SUFFIX,steam-chat.com,🎮 游戏平台
+  - DOMAIN-SUFFIX,steamdb.info,🎮 游戏平台

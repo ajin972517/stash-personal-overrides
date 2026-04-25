@@ -1,0 +1,20 @@
+# base.stoverride
+# Stash 基础通用覆写
+# 说明：这里放全局通用设置，不建议放太多业务规则。
+
+name: Stash 个人基础覆写
+desc: 适合个人长期维护的基础配置
+
+# 示例：保留 UDP 开启
+# 你的新机场速度稳定，不再强制关闭 UDP。
+override:
+  udp: true
+
+# 示例：通用 DNS 可按需启用
+# dns:
+#   enable: true
+#   ipv6: false
+#   enhanced-mode: fake-ip
+#   nameserver:
+#     - https://dns.alidns.com/dns-query
+#     - https://1.1.1.1/dns-query
